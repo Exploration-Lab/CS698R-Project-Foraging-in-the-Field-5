@@ -15,7 +15,7 @@ The 33rd  state is density which tells how much of the visible screen is occupie
 Appropriate noise is added to the states to prevent over-fitting.
 
 ## Environment
-OpenAI environment interface can be found in "my_env\envs\foraging.py". The OpenAI gym interface is integrated with the Pygame to render the game. The "foraging.py" files also provides the "mode" option which can be changed to "human" if someone wants to test the game out. Make sure to change the mode back to agent before the training. The step function of the environment takes the action and returns [current coordinates, current berry collected, done, current health].
+OpenAI environment interface can be found in "my_env\envs\foraging.py". The OpenAI gym interface is integrated with the Pygame to render the game. The "foraging.py" files also provides the "mode" option which can be changed to "human" if someone wants to test the game out. Make sure to change the mode back to agent before the training. The step function of the environment takes the action and returns [current coordinates, current berry collected, done, current health]. The render function is capable of returning the current image, next_state and the time remaining. To return the image uncomment the code from line 217-222 in "garden.py" (it is currently commented because it slows down the game drastically).
 
 ### Dependency
 - OpenGym
