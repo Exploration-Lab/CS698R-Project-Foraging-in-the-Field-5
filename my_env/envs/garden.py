@@ -84,7 +84,7 @@ class Player:
 class Garden:
     def __init__(self):
         pygame.init()
-        self.counter = 250
+        self.counter = 300
         pygame.time.set_timer(pygame.USEREVENT, 1000)
         self.font = pygame.font.SysFont('Consolas', 30)
         self.screen = pygame.display.set_mode((screen_width, screen_height))
@@ -235,7 +235,7 @@ class Garden:
             next_state.append(i) 
         next_state.append(density*100)   
         next_state = np.array(next_state)
-        return img_array, next_state, 240 - self.counter
+        return img_array, next_state, 300 - self.counter
         # pxarray = pygame.PixelArray(self.screen)
         # img = cam.get_image()
         # img_array = pygame.surfarray.pixels3d(pxarray)
