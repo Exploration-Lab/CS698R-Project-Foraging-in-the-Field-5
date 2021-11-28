@@ -17,8 +17,8 @@ agent.qnetwork_target.load_state_dict(torch.load('checkpoint345target'))
 # for name, param in agent.qnetwork_target.named_parameters():
 #     if param.requires_grad:
 #         print(name, param.data)
-def dqn(n_episodes= 70, max_t = 50000, eps_start=1, eps_end = 0,
-       eps_decay=0.996):
+def dqn(n_episodes= 1, max_t = 50000, eps_start=1, eps_end = 0,
+       eps_decay=0):
 
     scores = [] # list containing score from each episode
     scores_window = deque(maxlen=100) # last 100 scores
