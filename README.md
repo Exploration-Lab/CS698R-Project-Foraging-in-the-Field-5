@@ -15,6 +15,8 @@ The 33rd  state is density which tells how much of the visible screen is occupie
 Appropriate noise is added to the states to prevent over-fitting.
 
 ## Environment
+OpenAI environment interface can be found in "my_env\envs\foraging.py". The OpenAI gym interface is integrated with the Pygame to render the game. The "foraging.py" files also provides the "mode" option which can be changed to "human" if someone wants to test the game out. Make sure to change the mode back to agent before the training. The step function of the environment takes the action and returns [current coordinates, current berry collected, done, current health].
+
 ### Dependency
 - OpenGym
 - PyGame
@@ -38,4 +40,4 @@ $ python run.py
 1) CS698R Reinforcement Learning course IITK by Prof. Ashutosh Modi
 2) Udacity Reinforcement Learning course
 
-
+[CS698R-Project-Presentation-5.pdf](https://github.com/Exploration-Lab/CS698R-Project-Foraging-in-the-Field-5/files/7613752/CS698R-Project-Presentation-5.pdf)
