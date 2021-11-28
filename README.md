@@ -3,7 +3,7 @@
 Project by Group-5 DarkBox. Contains implementation of environment and agent.
 
 ## Abstract
-Foraging behaviour is a highly studied topic in neuro science and computer science. From neuro science perspective,  foraging theory deals with observing and explaining foraging behaviours of species in response to the environment it lives in.  This problem helps in studying decision making of species to continue their journey in the hope of finding new patch of resources given the cost of travelling.
+Foraging behaviour is a highly studied topic in feilds like neuro science and computer science. From neuro science perspective,  foraging theory deals with observing and explaining foraging behaviours of species in response to the environment it lives in.  This problem helps in studying decision making of species to continue their journey in the hope of finding new patch of resources given the cost of travelling.
 From reinforcement learning perspective, it is an optimization problem. The objective of the project is to present an agent which can forage optimally in the given environment. By using Deep Reinforcement Learning, we try to understand how to forage optimally in a field with patches of berries.
 
 ## Approach to solution of the problem
