@@ -6,7 +6,7 @@ Project by Group-5 DarkBox. Contains implementation of environment and agent.
 Foraging behaviour is a highly studied topic in neuro science and computer science. From neuro science perspective,  foraging theory deals with observing and explaining foraging behaviours of species in response to the environment it lives in.  This problem helps in studying decision making of species to continue their journey in the hope of finding new patch of resources given the cost of travelling.
 From reinforcement learning perspective, it is an optimization problem. The objective of the project is to present an agent which can forage optimally in the given environment. By using Deep Reinforcement Learning, we try to understand how to forage optimally in a field with patches of berries.
 
-## Approch to solution of the problem
+## Approach to solution of the problem
 The Double Deep-Q Learning (DDQN) algorithm is used to train the agent. The state size of the agent is 35, and the action size is either 8 or 9 depending on whether it has the option to stay. <br>
 The features can be divided into 4 vectors of length 8. Each vectors denotes the direction: [N, S, E, W, NE, NW, SE, SW]. The agent analyzes  each of the contained direction and if it encounters a berry of size say ’n’ it fills the corresponding indices with  size/distance   for the vector corresponding to size ’n’. Therefore we have 8*4 = 32 states.<br>
 
