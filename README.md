@@ -35,6 +35,10 @@ To train agent, use command
 ```console
 $ python run.py
 ```
+To run trained agent,
+```console
+$ python test.py
+```
 
 ### Refrences:
 1) CS698R Reinforcement Learning course IITK by Prof. Ashutosh Modi
