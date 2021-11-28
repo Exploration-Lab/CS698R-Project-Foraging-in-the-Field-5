@@ -17,7 +17,7 @@ agent.qnetwork_target.load_state_dict(torch.load('checkpoint345target'))
 # for name, param in agent.qnetwork_target.named_parameters():
 #     if param.requires_grad:
 #         print(name, param.data)
-def dqn(n_episodes= 1, max_t = 50000, eps_start=1, eps_end = 0,
+def ddqn(n_episodes= 1, max_t = 50000, eps_start=1, eps_end = 0,
        eps_decay=0):
 
     scores = [] # list containing score from each episode
@@ -63,7 +63,7 @@ def dqn(n_episodes= 1, max_t = 50000, eps_start=1, eps_end = 0,
             csv.writer(f, delimiter=' ').writerows(x)
     return scores
 
-scores = dqn()
+scores = ddqn()
 # print(scores)
 # with open('scores.txt', 'w') as f:
 #     csv.writer(f, delimiter=' ').writerows(scores)
