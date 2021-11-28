@@ -7,7 +7,7 @@ Project by Group-5 DarkBox. Contains implementation of environment and agent.
 - OpenGym
 - PyGame
 ### Instructions
-1. Install gym environment 
+Install gym environment 
 ```console
 $ pip install -e .
 ```
