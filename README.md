@@ -45,6 +45,8 @@ Provide the agent's path file and use:
 $ python plotting.py
 ```
 to see the results of agent's performance on various parameters.
+
+The environment also supports random environment. To train on random environments in line '43' of 'run.py' instead of passing 0 to env.reset pass the current episode number to create new environment with each episode.
 ### References:
 1) CS698R Reinforcement Learning course IITK by Prof. Ashutosh Modi
 2) Udacity Reinforcement Learning course
