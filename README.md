@@ -42,7 +42,7 @@ $ python test.py
 The agent's checkpoints will be saved after every 10 episodes or if the score reaches greater than 200 along with the agents path, score vs time, health vs time. 
 Provide the agent's path file and use:
 ```console
-$python plotting.py
+$ python plotting.py
 ```
 to see the results of agent's performance on various parameters.
 ### References:
