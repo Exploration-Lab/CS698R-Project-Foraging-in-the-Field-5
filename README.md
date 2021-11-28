@@ -40,7 +40,7 @@ To run trained agent,
 $ python test.py
 ```
 
-### Refrences:
+### References:
 1) CS698R Reinforcement Learning course IITK by Prof. Ashutosh Modi
 2) Udacity Reinforcement Learning course
 
