@@ -37,3 +37,5 @@ $ python run.py
 ### Refrences:
 1) CS698R Reinforcement Learning course IITK by Prof. Ashutosh Modi
 2) Udacity Reinforcement Learning course
+
+[CS698R-Project-Presentation-5.pdf](https://github.com/Exploration-Lab/CS698R-Project-Foraging-in-the-Field-5/files/7613752/CS698R-Project-Presentation-5.pdf)
