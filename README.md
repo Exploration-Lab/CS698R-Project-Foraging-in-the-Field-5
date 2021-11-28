@@ -17,3 +17,9 @@ $ pip install -e .
 ## Agent
 ### Dependency
 - PyTorch
+
+### Instructions
+To train agent, use command
+```console
+$ python run.py
+```
