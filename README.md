@@ -12,7 +12,7 @@ Install gym environment
 $ pip install -e .
 ```
 
-##Approch to solution of problem
+## Approch to solution of problem
 
 ## Agent
 ### Dependency
