@@ -31,6 +31,11 @@ $ pip install -e .
 - PyTorch
 
 ### Instructions
+To see the environment use:
+```console
+$ python temp.py
+```
+
 To train agent, use command
 ```console
 $ python run.py
